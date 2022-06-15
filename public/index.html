@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TIC TAC TOE</title>
+  </head>
+  <body>
+    <div class="overlay--turn">
+      <div class="overlay--turn-text">
+        OPPONENTS TURN
+      </div>
+    </div>
+
+    <div class="overlay">
+      <div class="overlay__text">
+      </div>
+      <div class="reset-btn">Reset</div>
+    </div>
+    <div class="playerSelect">
+      <div class="playerSelect--X">
+        X
+      </div>
+      <div class="playerSelect--O">
+        O
+      </div>
+    </div>
+
+    
+    
+    <div class="board">
+      <div class="board__cell board__cell--0" data-id="0"="">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--1" data-id="1">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--2" data-id="2">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--3" data-id="3">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--4" data-id="4">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--5" data-id="5">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--6" data-id="6">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--7" data-id="7">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+      <div class="board__cell board__cell--8" data-id="8">
+        <div class="X">X</div>
+        <div class="O">O</div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/client.js"></script>
+</html>

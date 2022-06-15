@@ -1,0 +1,22 @@
+{
+  "name": "tic-tac-toe-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass public/sass/main.scss public/css/style.css -w",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.0",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^1.19.4"
+  }
+}
