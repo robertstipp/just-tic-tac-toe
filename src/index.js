@@ -57,5 +57,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(port, () => {
-  console.log(`This server is listening on the ${server.address().port}`);
+  console.log(`This server is listening on the ${port}`);
 });
