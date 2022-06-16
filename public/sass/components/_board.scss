@@ -117,6 +117,7 @@
   font-size: 20rem;
   cursor: pointer;
   z-index: 999;
+  display: none;
 
   &:hover {
     border: 2px solid black;
@@ -141,5 +142,9 @@
 }
 
 .show {
+  display: block;
+}
+
+.show--reset {
   display: block;
 }

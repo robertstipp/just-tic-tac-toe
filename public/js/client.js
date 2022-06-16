@@ -34,6 +34,7 @@ let socketPlayer = "";
 
 socket.on("resetGame", () => {
   clearBoard();
+
   overlay.classList.add("hide");
 });
 
@@ -57,6 +58,7 @@ socket.on("winner", (winner) => {
   onTurn();
   overlayText.textContent = winner;
   overlay.classList.remove("hide");
+  resetBtn.classList.add("show--reset");
 });
 
 board.addEventListener("click", (e) => {

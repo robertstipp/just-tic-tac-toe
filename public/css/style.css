@@ -124,7 +124,8 @@ body {
   padding: 4rem 8rem;
   font-size: 20rem;
   cursor: pointer;
-  z-index: 999; }
+  z-index: 999;
+  display: none; }
   .reset-btn:hover {
     border: 2px solid black;
     color: white;
@@ -146,4 +147,7 @@ body {
     width: max-content; }
 
 .show {
+  display: block; }
+
+.show--reset {
   display: block; }
